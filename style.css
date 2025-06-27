@@ -1,0 +1,263 @@
+/* @import 'reset-css'; */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  /* background: #ffd6ea; */
+min-height: 100vh;
+width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'Crimson Pro', serif;
+  font-style: oblique;
+  font-weight: 100;
+  font-size: 18px;
+  padding-bottom: 100px; 
+  /* font-style: italic; */
+} 
+
+.kot {
+  width: 30%;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+
+.img {
+  width:40%;
+  padding: 20px;
+}
+
+.name {
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 3rem;
+font-size: 15px;
+/* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+/* font-weight: bold; */
+color: rgb(0, 0, 0);
+background: #ffd6ea;
+position: relative;
+z-index: 1;
+mix-blend-mode: multiply;
+}
+
+.text-box {
+  padding: 5px;
+  font-size: larger;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center; /* poziomo */
+  align-items: center;     /* pionowo */
+  height: 100vh;           /* wysokość na całą stronę */
+  text-align: left;      
+  flex-direction: column;
+}
+
+.centered-text-info {
+  display: flex;
+  align-items: center;     /* pionowo */
+  height: 100vh;           /* wysokość na całą stronę */
+  text-align: left;      
+  flex-direction: column;
+  font-style: normal;
+}
+
+span.bold {
+  font-weight: bold;
+  display: inline;
+}
+
+.text-group {
+      display: flex;
+      flex-direction: column; /* ustawia wyrazy jeden pod drugim */
+      gap: 0.5rem;
+      text-align: left;
+      font-size: 20px;
+      font-family: "Century Expanded";
+    }
+
+a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+/* border-bottom: 2px solid brown; */
+}
+
+.info-page a {
+  background: #f7e1ec;
+  color: grey;
+}
+.background-black a {
+  background: #f7e1ec;
+  color: grey;
+}
+
+/* a:visited { */
+  /* color: rgb(2, 2, 2); */
+/* } */
+
+a:hover {
+  color: black;
+  background: #f7e1ec;
+}
+
+a:active {
+  color: grey;
+}
+
+.reverse {
+  color: grey;
+  text-decoration: none;
+}
+
+.back {
+font-size: x-large;
+font-family: 'Playfair Display', serif;
+/* font-style: italic; */
+height: 75%;
+justify-content: right;
+padding: 20px;
+}
+
+.back_reverse {
+font-size: x-large;
+font-family: 'Playfair Display', serif;
+/* font-style: italic; */
+height: 75%;
+justify-content: right;
+padding: 20px;
+color:#f7e1ec;
+}
+
+.pink {
+  color: rgb(20, 20, 20);
+  background: #f7e1ec;
+}
+
+.color {
+  color: grey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.background-black {
+  background: rgb(20, 20, 20);
+  color:#f7e1ec;
+
+}
+footer {
+font-size: x-large;
+font-family: 'Playfair Display', serif;
+/* font-style: italic; */
+justify-content: right;
+padding: 10px 20px;
+bottom: 0;
+width: 100%;
+position: fixed;
+z-index: 1;
+
+}
+
+
+/* flowers */
+
+.flower-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.flower {
+ position: absolute;
+ font-size: 0.5rem;
+ color: #f7e1ec;
+ opacity: 0.5;
+ animation: float 6s ease-in-out infinite alternate;
+ opacity: 1 !important;
+ background: rgb(20, 20, 20) !important;
+ border: 2px solid black !important;
+ z-index: 1000 !important;
+}
+
+.flower_reverse{
+ position: absolute;
+ font-size: 0.5rem;
+ color: rgb(20, 20, 20);
+ opacity: 0.5;
+ animation: float 6s ease-in-out infinite alternate;
+ opacity: 1 !important;
+ background: #f7e1ec !important;
+ border: 2px solid #f7e1ec !important;
+ z-index: 1000 !important;
+}
+
+
+.flower_pink{
+ position: absolute;
+ font-size: 0.5rem;
+ color: rgb(20, 20, 20);
+ opacity: 0.5;
+ animation: float 6s ease-in-out infinite alternate;
+ opacity: 1 !important;
+ background: #f7e1ec !important;
+ border: 2px solid #f7e1ec !important;
+ z-index: 10000;
+ mix-blend-mode: multiply;
+}
+
+.poster-page a{
+  color: rgb(20, 20, 20);
+}
+
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-10px) rotate(180deg);
+  }
+}
+
+
+
+
+
+  @media (max-width: 768px) {
+    .img {
+      width: 80%;
+    }
+  }
+
+
