@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>shop</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body class="background-pink">
+
+    <div class="flower-container">
+    <div class="flower" style="top: 10%; left: 20%;">✿</div>
+    <div class="flower" style="top: 30%; left: 70%;">✿</div>
+    <div class="flower" style="top: 60%; left: 40%;">✿</div>
+    <div class="flower" style="top: 80%; left: 15%;">✿</div>
+    <div class="flower" style="top: 25%; left: 85%;">✿</div>
+    <div class="flower" style="top: 55%; left: 5%;">✿</div>
+    <div class="flower" style="top: 70%; left: 50%;">✿</div>
+    <div class="flower" style="top: 15%; left: 60%;">✿</div>
+    <div class="flower" style="top: 45%; left: 30%;">✿</div>
+    <div class="flower" style="top: 90%; left: 75%;">✿</div>
+    </div>
+
+    <div class="shop">
+<h2>Hello welcome to my shop</h2>
+<p>Select prints/items you want to buy, type your e-mail and send it to me! I will get back to you with futher informations</p>
+
+  <form action="https://formspree.io/f/your_form_id" method="POST">
+    <div class="image-grid">
+    <label>
+      <input type="checkbox" name="image[]" value="obrazek1">
+      <img src="https://i.ibb.co/YB7bysjv/kw-01-kontrast-copy-2-1-1.png"/>
+      <figcaption class="shop-cena">a5 postcard - 25PLN</figcaption>
+    </label>
+    <label>
+      <input type="checkbox" name="image[]" value="obrazek2">
+      <img src="https://i.ibb.co/M5sfzsdr/plakat-from-the-river-to-the-sea-a3-warswty-copy-2-1.png" />
+    </label>
+    <!-- Dodaj więcej obrazków -->
+  </div>
+
+  <input type="email" name="email" placeholder="your e-mail" required>
+  <button type="submit">send</button>
+  </form>
+</div>
+<footer>
+  <nav>
+    <a class="back-black" href="index.html">← <span class="reverse">back</span></a>
+  </nav>
+  <div class="copy">&copy; Karolina Król</div>
+</footer>
+</body>
+</html>
