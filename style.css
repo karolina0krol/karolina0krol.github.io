@@ -52,7 +52,7 @@ font-size: 15px;
 /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 /* font-weight: bold; */
 color: rgb(0, 0, 0);
-background: #ffd6ea;
+/* background: #ffd6ea; */
 position: relative;
 z-index: 1;
 mix-blend-mode: multiply;
@@ -207,6 +207,10 @@ color:#f7e1ec;
   background: rgb(20, 20, 20);
   color:#f7e1ec;
 
+}
+
+.background-pink {
+  background: #ffd6ea;
 }
 
 footer {
