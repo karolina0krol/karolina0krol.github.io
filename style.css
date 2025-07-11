@@ -534,3 +534,27 @@ width: 30%;
   flex-wrap: wrap;
 
 }
+
+
+
+
+
+
+/* lamanie tekstu */
+
+.desktop-only {
+  display: inline;
+  text-align: justify;
+}
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: inline;
+  }
+}
