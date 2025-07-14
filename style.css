@@ -535,8 +535,39 @@ width: 30%;
 
 }
 
+/* obrazki */
 
+.img-desktop {
+  display: block !important;
+}
+.img-mobile {
+  display: none !important;
+}
 
+@media (max-width: 768px) {
+  .img-desktop {
+    display: none !important;
+  }
+  .img-mobile {
+    display: block !important;
+  }
+
+  .no-padding {
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+  }
+
+  .no-top {
+    padding-top: 0% !important;
+  }
+  .no-bottom {
+    padding-bottom: 0% !important;
+  }
+
+  .top-40 {
+    padding-top: 40px !important;
+  }
+}
 
 
 
@@ -557,4 +588,20 @@ width: 30%;
   .mobile-only {
     display: inline;
   }
+
+  .text-tarot {
+    font-size: smaller;
+  }
+}
+
+
+@media (min-width:768px) {
+
+ .img-last {
+ padding-right: 40px;
+ }
+
+ .flex-container {
+  padding-left: 15px;
+ }
 }
