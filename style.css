@@ -340,10 +340,18 @@ align-items: flex-end;
  opacity: 0.5;
  animation: float 6s ease-in-out infinite alternate;
  opacity: 1 !important;
- background: #f7e1ec !important;
- border: 2px solid #f7e1ec !important;
  z-index: 10000;
  mix-blend-mode: multiply;
+}
+
+.flower-0 {
+ position: absolute;
+ font-size: 0.5rem;
+ color: rgb(20, 20, 20);
+ opacity: 0.5;
+ animation: float 6s ease-in-out infinite alternate;
+ opacity: 1 !important;
+ z-index: 1000 !important;
 }
 
 
@@ -495,7 +503,7 @@ align-items: flex-end;
 }
 
 label input:checked + img {
-  border: 5px solid rgb(20, 20, 20);
+  border: 5px solid #3F3E3E;
 }
 
 label input {
@@ -539,7 +547,7 @@ height: 166px;
 
 .shop-cena {
   color: rgb(20, 20, 20);
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .image-grid { 
@@ -547,8 +555,41 @@ height: 166px;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
-
+  padding: 5px;
+  justify-content: center;
+  margin: auto;
 }
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+align-items: center;
+}
+
+.row-send {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+align-items: center;
+padding-bottom: 80px;
+}
+
+.img-center {
+  margin: auto;
+}
+
+.caption {
+  align-items: left;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  font-size: larger;
+}
+
 
 /* obrazki */
 
