@@ -560,6 +560,16 @@ height: 166px;
   margin: auto;
 }
 
+.zawieszka {
+  width: 95px;
+  height: 155px;
+}
+
+.zawieszka_0 {
+  height: 155px;
+
+}
+
 .row {
   display: flex;
   gap: 10px;
