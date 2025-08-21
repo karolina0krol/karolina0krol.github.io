@@ -527,6 +527,10 @@ h2 {
 
 }
 
+.shop img {
+  padding: 2px; /* zmień wartość na dowolną */
+  box-sizing: border-box; /* żeby padding nie powiększał rozmiaru obrazka */
+}
 
 .shop .img-a5 {
 width: 120px;
@@ -635,7 +639,42 @@ padding-bottom: 80px;
   }
 }
 
+.total {
+  padding-top: 20px;
+}
 
+input[type="radio"] {
+  display: inline-block;}
+
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  max-width: 500px;
+}
+
+#cartBox {
+  position: fixed;
+  top: 111px;       /* od góry */
+  right: -7px;     /* od prawej */
+  background:rgb(20, 20, 20);
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-size: 22px;
+  z-index: 9999;
+  color: grey;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+
+}
+
+.plain{
+  font-family: 'Crimson Pro', serif;
+  font-style: normal;
+  font-weight: lighter;
+}
 
 /* lamanie tekstu */
 
