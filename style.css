@@ -390,9 +390,10 @@ align-items: flex-end;
   /* width:80%; */
   max-width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 10px;
   padding-bottom: 10px;
   display: block;
+  box-sizing: border-box
 }
 
 .flex-container {
@@ -478,6 +479,7 @@ align-items: flex-end;
 
 
   .opis {
+    min-height: 2.2em;
      padding-left: 20px;
      padding-right: 20px;
      font-size: smaller;
@@ -485,12 +487,21 @@ align-items: flex-end;
      font-style: normal;
      color: #ACACA5;
      text-align: center;
-     line-height: 1.1;
+     line-height: 1.2;
+     
   }
+
+  /* .img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 3 / 2; 
+} */
 
 
   .slowo-klucz {
-    color:#3F3E3E
+    color:#3F3E3E;
+    display:inline-block;
   }
 
 
@@ -514,6 +525,7 @@ label input {
 h2 {
   font-style: normal;
 }
+
 
 .shop {
   padding: 20px;
