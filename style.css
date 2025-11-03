@@ -169,15 +169,15 @@ text-decoration: none;
 .info-page a:hover,
 .info-page a:focus,
 .info-page a:active {
-  color: gray;               
-    background-color: #f7e1ec; 
-  text-decoration: none;     
+  color: gray  !important;  
+    background-color: #f7e1ec !important;
+  text-decoration: none    !important;
 }
 
 .info-page a:hover,
 .info-page a:focus,
 .info-page a:active {
-  color: black;              
+  color: black    !important;
 }
 
 .black-arrow {
