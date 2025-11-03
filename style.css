@@ -168,6 +168,18 @@ text-decoration: none;
   background: #f7e1ec;
   color: grey;
 }
+.info-page a:link,
+.info-page a:visited {
+  color: gray;
+  background-color: #f7e1ec;
+}
+
+.info-page a:hover,
+.info-page a:focus,
+.info-page a:active {
+  color: black;
+  background-color: #f7e1ec;
+}
 
 .black-arrow {
   color: black;
@@ -181,6 +193,7 @@ text-decoration: none;
 /* a:visited { */
   /* color: rgb(2, 2, 2); */
 /* } */
+
 
 a:hover {
   color: black;
