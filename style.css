@@ -157,11 +157,11 @@ z-index: 1;
     }
 
 a {
-color: rgb(0, 0, 0);
+ color: black;
 text-decoration: none;
- z-index: 10;   
+ /* z-index: 10;   
  mix-blend-mode: screen;
-/* border-bottom: 2px solid brown; */
+border-bottom: 2px solid brown; */
 }
 
 body.info-page a:link,
