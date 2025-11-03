@@ -414,7 +414,7 @@ align-items: flex-end;
   flex-wrap: nowrap;
   align-content: center;
   align-items: center;
-  max-width: 100%;
+  max-width: max-content;
   box-sizing: border-box;
   padding: 10px;
 
