@@ -497,6 +497,8 @@ align-items: flex-end;
      color: #ACACA5;
      text-align: center;
      line-height: 1.2;
+     flex-shrink: 0;
+  scroll-snap-align: center;
      
   }
 
