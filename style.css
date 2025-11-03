@@ -549,8 +549,8 @@ h2 {
 }
 
 .shop img {
-  padding: 2px; /* zmień wartość na dowolną */
-  box-sizing: border-box; /* żeby padding nie powiększał rozmiaru obrazka */
+  padding: 2px; 
+  box-sizing: border-box; 
 }
 
 .shop .img-a5 {
@@ -677,8 +677,8 @@ textarea {
 
 #cartBox {
   position: fixed;
-  top: 111px;       /* od góry */
-  right: -7px;     /* od prawej */
+  top: 111px;       
+  right: -7px;    
   background:rgb(20, 20, 20);
   padding: 10px 30px 10px 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
