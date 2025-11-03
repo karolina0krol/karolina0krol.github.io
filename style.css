@@ -164,21 +164,20 @@ text-decoration: none;
 /* border-bottom: 2px solid brown; */
 }
 
-.info-page a {
-  background: #f7e1ec;
-  color: grey;
-}
 .info-page a:link,
-.info-page a:visited {
-  color: gray;
-  background-color: #f7e1ec;
+.info-page a:visited,
+.info-page a:hover,
+.info-page a:focus,
+.info-page a:active {
+  color: gray;               
+    background-color: #f7e1ec; 
+  text-decoration: none;     
 }
 
 .info-page a:hover,
 .info-page a:focus,
 .info-page a:active {
-  color: black;
-  background-color: #f7e1ec;
+  color: black;              
 }
 
 .black-arrow {
