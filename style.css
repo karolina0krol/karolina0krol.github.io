@@ -690,6 +690,10 @@ textarea {
   text-decoration: none;
 
 }
+.flex-container img {
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
 
 .plain{
   font-family: 'Crimson Pro', serif;
