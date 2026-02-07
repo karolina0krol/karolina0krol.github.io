@@ -95,11 +95,11 @@ function updateTotal() {
   let selected = [];
   let highestGroup = 0;
 
-  // sumujemy produkty i sprawdzamy grupę
+
   checkboxes.forEach(cb => {
     if(cb.checked) {
       selected.push(cb.value);
-      total += parseFloat(cb.dataset.value); // wartość produktu
+      total += parseFloat(cb.dataset.value); 
       highestGroup = Math.max(highestGroup, parseInt(cb.dataset.group));
     }
   });
@@ -138,7 +138,7 @@ radios.forEach(r => r.addEventListener("change", updateTotal));
 
 updateTotal();
 
-// Obsługa wysyłki formularza
+
 document.getElementById("orderForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
