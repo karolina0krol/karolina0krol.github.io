@@ -161,20 +161,35 @@ text-decoration: none;
  /* z-index: 10; */
 }
 
+/* Domyślnie - czarny tekst, różowe tło */
 body.info-page a:link,
-body.info-page a:visited,
-body.info-page a:hover,
-body.info-page a:focus,
-body.info-page a:active {
-  color: gray !important;
+body.info-page a:visited {
+  color: black !important;
   background-color: #f7e1ec !important;
   text-decoration: none !important;
 }
 
-body.info-page a:hover,
-body.info-page a:focus,
+/* Hover - różowy tekst, czarne tło */
+body.info-page a:hover {
+  color: #f7e1ec !important;
+  background-color: black !important;
+}
+
+/* Active (kliknięcie) - szary tekst, różowe tło */
 body.info-page a:active {
+  color: gray !important;
+  background-color: #f7e1ec !important;
+}
+
+body.background-black a:link,
+body.background-black a:visited {
   color: black !important;
+  background-color: #f7e1ec !important;
+}
+
+body.background-black a:hover {
+  color: #f7e1ec !important;
+  background-color: rgb(20, 20, 20) !important;
 }
 
 .black-arrow {
@@ -296,6 +311,7 @@ color:#f7e1ec;
   color:#f7e1ec;
   background-color: rgb(20, 20, 20);
   padding: 10px;
+  padding-bottom: 15px;
 } 
 
 
@@ -314,7 +330,10 @@ pointer-events: none;
 align-items: flex-end;
 pointer-events: none;
 z-index: 10;
+}
 
+.footer-small {
+  padding-bottom: 10px;
 }
 
 footer a,
@@ -338,7 +357,7 @@ footer nav {
     justify-content:right;
   }
 .copy-black {
-  font-size: 12px;
+  font-size: 14px;
   color: #f7e1ec;
   padding-bottom: 5.1px;
   font-family: 'Playfair Display', serif;
